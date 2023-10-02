@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
+import './index.css'
 import image from './img/nine.png';
 import image2 from './img/setting-2.png';
 import image3 from './img/close-circle.png';
