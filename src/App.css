@@ -1,38 +1,357 @@
 .App {
   text-align: center;
+  padding: 3%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main{
+  margin: 3%;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+.first{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 70%;
+  height: 25vh;
+  background-color: aquamarine;
+}
+.image1 > img{
+  height: 60px;
+
+
+}
+
+.first-items{
+  padding: 1%;
+  background-color: blue;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+
+}
+.first-left{
+  background-color: brown;
+  align-items: start;  
+  text-align: start;
+
+  width: 50%;
+}
+.help > h1{
+  font-size: 30px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  line-height: 50px;
+}
+.help2{
+  width: 80%;
+  display: flex;
+  align-self: center;
+  justify-content: space-between;
+
+}
+.icon-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.icon-info > img{
+  height: 15px;
+  margin-right: 1%;
+}
+.icon-info >p{
+  font-size: 13px;
+}
+.help3{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  margin-top: 4%;
+
+}
+.help3 >p{
+  font-size: 12px;
+}
+.help3 >img{
+  height: 14px;
+}
+.stars{
+  display: flex;
+  height: 12px;
+}
+.first-right > button{
+  width: 166px;
+  height: 45px;
+  background: #0E75C5;
+  border-radius: 4px;
   color: white;
 }
+.second{
+  width: 50%;
+  height: 7vh;
+  background-color: aquamarine;
+  margin-top: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
 
-.App-link {
-  color: #61dafb;
+}
+.second > button{
+  width:  122px;
+  height:  37px;
+
+  border-radius: 24px;
+  gap: 10px;
+  background-color: white;
+  color: #0E75C5;
+
+}
+.instructions{
+  display: flex;
+  justify-content: space-between;
+  background-color: azure;
+  width: 70%;
+}
+.screen{
+  width: 330px;
+  height: 500px;
+  top: 150px;
+  left: 1076px;
+  padding: 24px, 24px, 32px, 24px;
+  border-radius: 24px;
+  border: 1px solid #100A42;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+/*ScreenRecord*/
+.part1{
+  height: 30%;
+
+
 }
+
+.layer1{
+  margin-bottom: 4%;
+  padding: 3%;
+  display: flex;
+  justify-content: space-between;
+
+  align-items: center;
+
+}
+.helpme1{
+  display: flex;
+  align-items: center;
+}
+.helpme1 > img{
+  width: 28px;
+  height: 28.01px;
+  margin-right: 7%;
+
+}
+.helpme1 > h1{
+font-weight: 700;
+
+}
+.helpme2{
+  display: flex;
+}
+.helpme2 > img{
+  height: 20px;
+  margin-right: 10%;
+}
+.helpme-img{
+  margin-right: 100%;
+
+}
+.layer2{
+  display:flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 30%;
+  margin: 5%;
+
+  padding: px;
+  margin-top: 5%;
+}
+.monitor > img{
+  height: 20px;
+
+}
+.monitor{
+  color: #928FAB;
+
+}
+.copy > img{
+  height: 20px;
+}
+.copy > p{
+  color: #120B48;
+  font-weight: 600;
+}
+.layer3{
+  margin: 5%;
+  padding: 1%;
+
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 12px;
+  border: 1px solid #100A42;
+}
+.layer3 > img{
+  height: 30px;
+}
+.layer3-items{
+  display: flex;
+  align-items: center;
+}
+.layer3-items > img{
+  margin-right: 10px;
+  height: 25px;
+
+}
+.record{
+  margin: 5%;
+  padding: 4%;
+  background-color: #120B48;
+  height: 20%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+  border: 1px solid #100A42;
+  width: 90%;
+  color: #fff;
+  font-weight: 600;
+}
+.record > p{
+  color: white;
+  font-weight: 500;
+}
+
+/*Header*/
+.header{
+  padding-left: 8%;
+  padding-right: 8%;
+  width: 100%;
+  height: 7vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header1{
+  width: 12%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header1 > img{
+  height: 40px;
+  margin-right: 10px;
+}
+.header1 >p{
+  color: #100A42;
+  font-size: 16px;
+  font-weight: 600;
+}
+.header2{
+  width: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.header2 >p{
+  color: #000000;
+  font-size: 14px;
+
+}
+/*Body*/
+.section1{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.section-left{
+  width: 28%;
+  text-align: start;
+}
+.section-left > p{
+  color: #141414;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 64px;
+
+}
+.note{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0em;
+  text-align: left;
+
+}
+.section-left > button{
+  width: 50%;
+  height: 6vh;
+  padding: 22px, 24px, 22px, 24px;
+  border-radius: 8px;
+  background-color: #120B48;
+  color: white;
+  font-weight: 500;
+
+}
+/* CSS for the toggle button */
+/* CSS for the camera toggle button */
+/* ... your existing CSS ... */
+
+/* Toggle button for camera */
+.toggle-button {
+  display: inline-block;
+  position: relative;
+  width: 50px;
+  height: 25px;
+  background-color: #ccc;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.toggle-button::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background-color: #fff;
+  left: 3px;
+  top: 3px;
+  transition: transform 0.3s;
+}
+
+/* Style for the "on" state of the toggle button */
+.toggle-button.on {
+  background-color: #120B48; /* Green color for "on" state */
+}
+
+.toggle-button.on::before {
+  transform: translateX(25px); /* Move the circle to the right for "on" state */
+}
+
+/* Style for the "off" state of the toggle button */
+.toggle-button.off {
+  background-color: #f1eeee; /* Red color for "off" state */
+}
+
+.toggle-button.off::before {
+  transform: translateX(0); /* Move the circle to the left for "off" state */
+}
+
+/* ... your existing CSS ... */
+
+/*LandingPage*/
